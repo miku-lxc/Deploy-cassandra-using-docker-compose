@@ -38,6 +38,18 @@ docker-compose -f dir up -d
       引入文件配置的库，解决密码隐藏的问题，防止连接时将自己的密码泄露出去造成安全风险
 
   代码目录：pythoncode下
+      
+         1.connection.py : 连接数据库代码
+
+         2.copy_reselut_CVS.py：保存数据库到本地为csv代码
+
+         3.create.py：创建keysapce和表代码
+
+         4.insert_into.py：插入数据代码，包含单量插入和批量插入
+
+         5.nect_improve.py：连接数据库的优化代码，密码隐藏
+
+         6.select_status.py：查询数据库状态代码
   
   ![图片](https://user-images.githubusercontent.com/126040842/226094834-58b5c13b-47e3-49fc-be70-ce4eb1d1c589.png)
 
