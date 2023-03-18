@@ -39,6 +39,8 @@ docker-compose -f dir up -d
 
   代码目录：pythoncode下
   
+  ![图片](https://user-images.githubusercontent.com/126040842/226094834-58b5c13b-47e3-49fc-be70-ce4eb1d1c589.png)
+
   
 四、总结和展望
    
