@@ -45,23 +45,7 @@ session.execute('use miku2;')
 session.execute('create table miku2.user(name text primary key, age int, email varchar);')
 # 删除table
 # session.execute('drop table test.user;')
-# 关闭连接
-#cluster.shutdown()
-# 查看是否关闭连接
-#print(cluster.is_shutdown)
 
-'''根据上述的情况对表进行查询其状态,查询keyspaces/tables/columns状态'''
-
-print(cluster.metadata.keyspaces)
-print('----------')
-print(cluster.metadata.keyspaces['miku2'].tables)
-print('----------')
-print(cluster.metadata.keyspaces['miku2'].tables['user'])
-print('----------')
-print(cluster.metadata.keyspaces['miku2'].tables['user'].columns)
-print('----------')
-print(cluster.metadata.keyspaces['miku2'].tables['user'].columns['age'])
-print('----------')
 
 
 # 关闭连接
